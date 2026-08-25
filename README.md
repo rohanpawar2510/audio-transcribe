@@ -196,17 +196,6 @@ Check repository status:
 git status
 ```
 
-## Security
-
-Never commit sensitive information such as:
-
-* API keys
-* Passwords
-* Access tokens
-* Private credentials
-* `.env` files containing secrets
-
-Use environment variables or a secure secret-management solution instead.
 
 ## Future Improvements
 
@@ -219,7 +208,4 @@ Use environment variables or a secure secret-management solution instead.
 * Add a database for storing transcriptions
 * Deploy the application to a cloud platform
 
-## License
 
-This project is currently intended for personal/educational use.
-Add an appropriate open-source license if you plan to distribute the project publicly.
