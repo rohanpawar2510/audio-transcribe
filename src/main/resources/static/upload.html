@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Audio Transcription</title>
+</head>
+<body>
+
+<h2>Upload Audio for Transcription</h2>
+
+<form action="/transcribe" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" accept=".wav,.mp3,.m4a"/>
+    <br><br>
+    <button type="submit">Transcribe</button>
+</form>
+
+</body>
+</html>
